@@ -169,18 +169,10 @@ section {
 	max-width: 900px;
 }
 
-#screenshot .screenshot.mobile {
-	display: none;
-	margin: auto;
-	max-width: 300px;
-}
-
 @media (max-width: 550px) {
 	#screenshot .screenshot {
-		display: none;
-	}
-	#screenshot .screenshot.mobile {
-		display: block;
+		margin: auto;
+		max-width: 300px;
 	}
 }
 
